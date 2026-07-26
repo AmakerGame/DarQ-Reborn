@@ -20,7 +20,7 @@ class SocialLinksBottomSheetFragment : BaseBottomSheetFragment<FragmentBottomShe
                 dismiss()
             }
             socialWebsite.setOnClickListener {
-                requireContext().openLink("https://mohit-arora.me/")
+                requireContext().openLink("https://mohitarora.me/")
                 dismiss()
             }
             socialGithubProfile.setOnClickListener {
