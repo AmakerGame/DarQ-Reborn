@@ -27,6 +27,10 @@ class SocialLinksBottomSheetFragment : BaseBottomSheetFragment<FragmentBottomShe
                 requireContext().openLink("https://github.com/Arora-Sir")
                 dismiss()
             }
+            socialLinkedinProfile.setOnClickListener {
+                requireContext().openLink("https://www.linkedin.com/in/arora-sir/")
+                dismiss()
+            }
             socialTwitter.setOnClickListener {
                 requireContext().openLink("https://x.com/arorasir")
                 dismiss()
@@ -43,6 +47,7 @@ class SocialLinksBottomSheetFragment : BaseBottomSheetFragment<FragmentBottomShe
             val accent = ColorStateList.valueOf(monet.getAccentColor(requireContext()))
             socialIcWebsite.imageTintList = accent
             socialIcGithubProfile.imageTintList = accent
+            socialIcLinkedinProfile.imageTintList = accent
             socialIcTwitter.imageTintList = accent
             socialIcInstagram.imageTintList = accent
             socialIcReddit.imageTintList = accent
@@ -52,6 +57,7 @@ class SocialLinksBottomSheetFragment : BaseBottomSheetFragment<FragmentBottomShe
             val backgroundTint = ColorStateList.valueOf(cardBg)
             socialWebsite.backgroundTintList = backgroundTint
             socialGithubProfile.backgroundTintList = backgroundTint
+            socialLinkedinProfile.backgroundTintList = backgroundTint
             socialTwitter.backgroundTintList = backgroundTint
             socialInstagram.backgroundTintList = backgroundTint
             socialReddit.backgroundTintList = backgroundTint

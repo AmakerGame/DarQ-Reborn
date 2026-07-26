@@ -164,6 +164,8 @@
     <string name="social_website_summary">mohitarora.me</string>
     <string name="social_github_profile_title">GitHub Profile</string>
     <string name="social_github_profile_summary">github.com/Arora-Sir</string>
+    <string name="social_linkedin_profile_title">LinkedIn Profile</string>
+    <string name="social_linkedin_profile_summary">linkedin.com/in/arora-sir</string>
     <string name="social_github_repo_title">GitHub Repository</string>
     <string name="social_github_repo_summary">Arora-Sir/DarQ-Reborn</string>
     <string name="social_twitter_title">X (Twitter)</string>
